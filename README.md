@@ -25,35 +25,6 @@
 
 ---
 
-## 🚀 Quick Start
-
-### 1. Installation
-```bash
-# Clone the repository
-git clone https://github.com/your-org/isro.git
-cd isro
-
-# Install dependencies across all monorepo workspaces
-pnpm install
-```
-
-### 2. Local Development
-```bash
-# Start local frontend PWA dev server
-pnpm dev
-# Accessible at http://localhost:5173
-```
-
-### 3. Run Benchmark Evaluation & Unit Tests
-```bash
-# Run unit test suites (Vitest)
-pnpm test:engine
-
-# Run standalone ISRO IO-VNBD replay benchmark harness
-npx tsx ml/scripts/replay_benchmark.ts
-```
-
----
 
 ## 📂 Monorepo Architecture
 
@@ -81,13 +52,7 @@ isro/
 
 ---
 
-## 🌐 Production Deployment
 
-For complete, step-by-step instructions on deploying the frontend to **Vercel** and linking to **Supabase** (including required environment variables, Edge Function API secrets, and Google OAuth setup), see:
-
-👉 **[Complete Deployment Guide (DEPLOYMENT.md)](./DEPLOYMENT.md)**
-
----
 
 ## 📄 License & Attribution
 
